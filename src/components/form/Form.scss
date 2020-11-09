@@ -1,0 +1,52 @@
+.form {
+  .upload {
+    margin: 15px 0 20px 0;
+
+    .upload-btn {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      p {
+        margin: 0;
+        padding-right: 10px;
+      }
+
+      .upload-icon {
+        cursor: pointer;
+        font-size: 25px;
+      }
+    }
+  }
+
+  .image-preview-list {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+    .image-card {
+      height: 150px;
+      width: 250px;
+      margin-bottom: 15px;
+      position: relative;
+
+      img {
+        height: 100%;
+        width: 100%;
+        box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, .2);
+      }
+
+      span {
+        position: absolute;
+        top: -3px;
+        right: -3px;
+        cursor: pointer;
+
+        .remove-icon {
+          color: crimson;
+          font-size: 25px;
+        }
+      }
+    }
+  }
+}

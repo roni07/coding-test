@@ -1,0 +1,25 @@
+.home {
+  background: linear-gradient(45deg, #502c99 10%, #6e4bb1 100%);
+  height: calc(100% - 80px);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  .image {
+    flex: 1;
+  }
+
+  .banner {
+    flex: 1;
+    text-align: left;
+    color: #ffffff;
+
+    h3 {
+      letter-spacing: 1px;
+    }
+
+    p {
+      letter-spacing: 2px;
+    }
+  }
+}

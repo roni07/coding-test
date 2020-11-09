@@ -1,0 +1,49 @@
+.design {
+  .tshirt-container {
+    position: relative;
+    width: 400px;
+    margin: auto;
+
+    img {
+      width: 100%;
+    }
+
+    .text-container {
+      position: absolute;
+      width: 50%;
+      height: 70%;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      border: 1px solid black;
+
+      .text-f-btn {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        //cursor: pointer;
+      }
+
+      .draggable-wrapper {
+        position: relative;
+        display: inline-block;
+        background-color: #ddd;
+        padding: 8px;
+        cursor: move;
+
+        span {
+          position: absolute;
+          top: -8px;
+          right: 3px;
+          color: crimson;
+          font-size: 20px;
+          cursor: pointer;
+        }
+      }
+
+    }
+
+
+  }
+}
